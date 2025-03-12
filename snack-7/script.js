@@ -35,3 +35,21 @@ const retStudent = students.find(student => {
 });
 
 console.log(retStudent);
+
+// BONUS
+console.log('---');
+
+let retStudentBonus;
+
+for (let i = 0; i < students.length; i++) {
+
+  const element = students[i];
+
+  if (element.id === 2) {
+
+    retStudentBonus = element;
+    break;
+  }
+}
+
+console.log(retStudentBonus);
