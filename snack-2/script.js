@@ -11,3 +11,12 @@ people.forEach(element => {
 
   console.log(element.name);
 });
+
+// BONUS
+console.log('---');
+
+for (let i = 0; i < people.length; i++) {
+
+  const element = people[i];
+  console.log(element.name);
+}
