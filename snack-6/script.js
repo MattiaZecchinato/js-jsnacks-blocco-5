@@ -39,3 +39,27 @@ const shortZucchine = zucchine.filter(element => {
 
 console.log(longZucchine);
 console.log(shortZucchine);
+
+// BONUS
+console.log('---');
+
+const longZucchineBonus = [];
+const shortZucchineBonus = [];
+
+for (let i = 0; i < zucchine.length; i++) {
+
+  const element = zucchine[i];
+
+  if (element.length >= 15) {
+
+    longZucchineBonus.push(element);
+  }
+  else {
+
+    shortZucchineBonus.push(element);
+  }
+  
+}
+
+console.log(longZucchineBonus);
+console.log(shortZucchineBonus);
