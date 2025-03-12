@@ -9,3 +9,21 @@ const evenNums = nums.filter(num => {
 });
 
 console.log(evenNums);
+
+// BONUS
+console.log('---');
+
+const evenNumsBonus = [];
+
+for (let i = 0; i < nums.length; i++) {
+
+    const element = nums[i];
+
+    if (element % 2 === 0) {
+
+        evenNumsBonus.push(element);
+    }
+    
+}
+
+console.log(evenNumsBonus);
