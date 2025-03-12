@@ -14,3 +14,16 @@ const authorNames = posts.map(names => {
 });
 
 console.log(authorNames);
+
+// BONUS
+console.log('---');
+
+const authorNamesBonus = [];
+
+for (let i = 0; i < posts.length; i++) {
+
+  const element = posts[i];
+  authorNamesBonus.push(element.author);
+}
+
+console.log(authorNamesBonus);
