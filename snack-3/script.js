@@ -9,3 +9,16 @@ const newNumbers = numbers.map(num => {
 });
 
 console.log(newNumbers);
+
+// BONUS
+console.log('---');
+
+const newNumbersBonus = [];
+
+for (let i = 0; i < numbers.length; i++) {
+
+    const element = numbers[i] + 1;
+    newNumbersBonus.push(element);
+}
+
+console.log(newNumbersBonus);
