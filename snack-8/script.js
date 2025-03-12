@@ -28,3 +28,21 @@ const findClass = students.find(student => {
 });
 
 console.log(findClass.class);
+
+// BONUS
+console.log('---');
+
+let findClassBonus;
+
+for (let i = 0; i < students.length; i++) {
+
+  const element = students[i];
+  
+  if (element.name === 'Marco Lanci') {
+
+    findClassBonus = element.class;
+    break;
+  }
+}
+
+console.log(findClassBonus);
