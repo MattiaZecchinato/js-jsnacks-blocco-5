@@ -5,14 +5,7 @@ const nums = [2, 8, 4, 7, 12, 87];
 
 const evenNums = nums.filter(num => {
 
-    if (num % 2 === 0) {
-
-        return true;
-    }
-    else {
-
-        return false;
-    }
+    return num % 2 === 0;
 });
 
 console.log(evenNums);
